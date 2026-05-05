@@ -12,7 +12,6 @@ The system uses a three-stage pipeline:
 
 This approach improves both fraud detection performance and interpretability.
 
----
 
 ## Problem Statement
 
@@ -20,16 +19,14 @@ Credit card fraud detection is challenging because fraudulent transactions are r
 
 This project addresses the problem by combining deep anomaly detection, supervised classification, and LLM-based explanation to support more reliable and interpretable fraud detection.
 
----
-
 ## Dataset
 
 The project uses the Kaggle Credit Card Transactions Fraud Detection dataset.
 
 Dataset files:
 
-- `fraudTrain.csv`
-- `fraudTest.csv`
+- fraudTrain.csv
+- fraudTest.csv
 
 Combined dataset size:
 
@@ -43,7 +40,6 @@ Dataset link:
 
 https://www.kaggle.com/datasets/kartik2112/fraud-detection
 
----
 
 ## Key Features
 
@@ -55,7 +51,6 @@ https://www.kaggle.com/datasets/kartik2112/fraud-detection
 - LLM-based reasoning for explainable fraud investigation
 - Evaluation using recall, precision, F1-score, PR-AUC, and confusion matrix
 
----
 
 ## System Architecture
 
